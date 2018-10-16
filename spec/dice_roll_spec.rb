@@ -22,9 +22,9 @@ describe "#roll" do
     expect(rolls).to include(1, 2, 3, 4, 5, 6)
     expect(rolls).not_to include(0, 7)
   end
-  puts dice_roll(1..6)
+  #dice_roll(1..6)
   puts dice_roll(int)
-  puts 
+  puts 1 + dice_roll(6)
 end
 
 end
