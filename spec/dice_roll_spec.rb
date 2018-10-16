@@ -23,6 +23,6 @@ describe "#roll" do
     expect(rolls).not_to include(0, 7)
   end
   puts dice_roll(1..6)
-  
+end
 
 end
