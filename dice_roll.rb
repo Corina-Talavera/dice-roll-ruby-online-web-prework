@@ -4,4 +4,6 @@
 
 def roll
   #roll(1..6)
+  puts #roll(int)
+  
 end
